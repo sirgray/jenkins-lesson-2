@@ -16,3 +16,8 @@ pipeline {
         }
     }
 }
+stage('Deploy') {
+            steps {
+                echo 'Deploying application to Staging environment...'
+            }
+        }

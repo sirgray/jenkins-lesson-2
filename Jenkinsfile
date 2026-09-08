@@ -14,10 +14,11 @@ pipeline {
                 sh 'echo "Code tests passed successfully!"'
             }
         }
-    }
-}
-stage('Deploy') {
+        stage('Deploy') {
             steps {
                 echo 'Deploying application to Staging environment...'
             }
         }
+    }
+}
+

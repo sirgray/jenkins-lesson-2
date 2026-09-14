@@ -7,7 +7,7 @@ pipeline {
                 docker { image 'node:18-alpine' }
             }
             steps {
-                echo '=== Running inside Node.js Container ==='
+                echo '=== Running1 inside Node.js Container ==='
                 sh 'node --version'
                 sh 'npm --version'
             }
